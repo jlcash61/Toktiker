@@ -16,12 +16,12 @@ function displayStrippedUrl(strippedUrl) {
 
     document.getElementById('video-url').textContent = strippedUrl;
     document.getElementById('video-url').href = strippedUrl;
-    document.getElementById('iframe-preview').src = embedUrl;
+   // document.getElementById('iframe-preview').src = embedUrl;
     document.getElementById('result').style.display = 'block';
 }
 
 function getEmbedUrl(url) {
     const urlParts = url.split('/');
     const videoId = urlParts[urlParts.length - 1];
-    return `https://www.tiktok.com/embed/v2/${videoId}`;
+    return `https://www.tiktok.com/embed/${videoId}`;
 }
