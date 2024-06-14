@@ -16,7 +16,7 @@ function displayStrippedUrl(strippedUrl) {
 
     document.getElementById('video-url').textContent = strippedUrl;
     document.getElementById('video-url').href = strippedUrl;
-    document.getElementById('video-preview').src = embedUrl;
+    document.getElementById('iframe-preview').src = embedUrl;
     document.getElementById('result').style.display = 'block';
 }
 

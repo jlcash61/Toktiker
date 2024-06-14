@@ -53,7 +53,8 @@ button:hover {
 }
 
 #iframe-preview {
-    width: 100%;
-    max-width: 500px;
-    height: 300px;
+    width: 80%;
+    max-width: 640px;  /* Set the max width */
+    height: 360px;     /* Set the height */
+    margin: 0 auto;    /* Center the iframe */
 }
